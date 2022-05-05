@@ -4,13 +4,21 @@
 }
 
 body {
-  background-color: hsl(240, 3%, 7%);
+  background-color: hsl(64, 37%, 44%);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
   padding: 1em;
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
+}
+
+.logo {
+  align-self: center;
+}
+
+.logo img{
+  max-width: 100%;
 }
 
 .keyboard {
